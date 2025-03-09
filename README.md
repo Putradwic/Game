@@ -5,13 +5,13 @@ Game ini adalah game shooter sederhana beerbasis JavaScript di mana player akan 
 ## 🎯  Fitur
 
 - 🎮 Gameplay: Pemain diharuskan untuk menembak dan menghindari musuh untuk mencapai score tertinggi.
-- 🕹 Kontrol Karakter: Pemain dapat menggerakkan pesawat menggunakan tombol panah / tombol WASD dan menembak dengan tombol spasi untuk menembak musuh.
+- 🕹 Kontrol Karakter: Pemain dapat menggerakan karakter dengan menekan tombol Panah / WASD dan menembak dengan menekan tombol Spasi
 -  👾 Musuh: Musuh akan berdatangan dari arah kanan untuk mengadang player.
 -  🔥 Kill Count: Musuh yang terkena tembakan dari player akan dihitung.
 -  ⭐ Score: Setiap musuh yang terkena tembakan (Kill Count) akan dihitung 2 score.
 -  🏆 High Score: High score akan dihitung setelah pemain menabrak musuh.
 
-# Cara Memainkan
+# 🎲 Cara Memainkan
 
 - Jalankan klik link ini https://putradwic.github.io/Game/.
 
@@ -23,7 +23,7 @@ Game ini adalah game shooter sederhana beerbasis JavaScript di mana player akan 
 
 - Hancurkan musuh sebanyak mungkin dan capai skor tinggi.
 
-# Teknologi yang Digunakan
+# 💻 Teknologi yang Digunakan
 
 - HTML5
 
