@@ -163,7 +163,7 @@
           if (checkCollision(bullets[i], enemies[j])) {
             enemies.splice(j, 1);
             bullets.splice(i, 1);
-            score += 1;
+            score += 2;
             killCount += 1;
             i--;
             break;
