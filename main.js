@@ -8,7 +8,7 @@
     // Variabel skor, kill count, dan high score
     let score = 0;
     let killCount = 0;
-    let highScore = 0;
+    let highScore = localStorage.getItem("highScore") ? Number(localStorage.getItem("highScore")) : 0;
 
     // Pengaturan spawn musuh
     const initialEnemySpawnInterval = 500; // interval awal 2000ms
@@ -169,6 +169,12 @@
             break;
           }
         }
+      }
+    }
+    function updateHighScore(score) {
+      if (score > highScore) {
+          highScore = score;
+          localStorage.setItem("highScore", highScore);
       }
     }
 
